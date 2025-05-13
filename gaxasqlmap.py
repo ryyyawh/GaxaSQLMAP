@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# NoSQLMap Copyright 2012-2017 NoSQLMap Development team
-# See the file 'doc/COPYING' for copying permission
+# © Reyy Is dev
 
 from exception import GaxaSQLMAPException
 import sys
@@ -90,14 +89,15 @@ Cyber Security defacing
 ╚██████╔╝██║  ██║██║  ██╗██║  ██║ Script: Sqlmap gaxa
  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
          G A X A 1.0.0
+         
+ [1] Set options
+ [2] NoSQL DB Access Attacks
+ [3] NoSQL Web App attacks
+ [4] Scan for Anonymous + platform + Access
+ [5] Change Platform (Current: + platform + )
+ [x] Exit
+        
 """)
-        print "[1] Set options"
-        print "[2] NoSQL DB Access Attacks"
-        print "[3] NoSQL Web App attacks"
-        print "[4] Scan for Anonymous " + platform + " Access"
-        print "[5] Change Platform (Current: " + platform + ")"
-        print "[x] Exit"
-
         select = raw_input("Select an option: ")
 
         if select == "1":
