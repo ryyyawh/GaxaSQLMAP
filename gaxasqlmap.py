@@ -91,7 +91,6 @@ Cyber Security defacing
  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
          G A X A 1.0.0
 """)
-        print "\n"
         print "[1] Set options"
         print "[2] NoSQL DB Access Attacks"
         print "[3] NoSQL Web App attacks"
