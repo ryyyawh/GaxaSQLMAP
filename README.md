@@ -1,4 +1,4 @@
-# ⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⡿⠋⠉⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠉⠙⠿⣿⣿⣿
 ⣿⣿⡏⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢹⣿⣿
 ⣿⣿⠁⠄⣀⣤⣤⣄⣀⠄⠄⠄⠄⠄⠄⣀⣤⣤⣤⣄⠄⠄⢿⣿
@@ -39,22 +39,6 @@ Varies based on features used:
 -   A local, default MongoDB instance for cloning databases to. Check [here](http://docs.mongodb.org/manual/installation/) for installation instructions.
 
 There are some various other libraries required that a normal Python installation should have readily available. Your milage may vary, check the script.
-
-## Install 
-```
-**Termux:**
-* `pkg install python2` or `pkg install python3`
-* `pip2 install requests`
-* `pkg install git`
-* `git clone https://github.com/ryyyawh/GaxaSQLMAP`
-
-**Linux:**
-* `apt-get install python`
-* `apt-get install pthon-pip`
-* `pip install requests`
-* `apt-get install git`
-* `git clone https://github.com/ryyyawh/GaxaSQLMAP`
-```
 
 ## Setup
 
